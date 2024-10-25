@@ -6,16 +6,13 @@
  * 4. Conditional Renders: control what gets rendered in application based on certain conditions
  *    - proptypes
  *    - default proptypes
+ * 5. Rendering lists
  */
 
-import UserGreeting from "./UserGreeting.jsx";
+import List from "./List.jsx";
 
 function App() {
-  return (
-    <>
-      <UserGreeting isLoggedIn={false} username="Ethan" />
-    </>
-  );
+  return (<List />)
 }
 
 export default App;
